@@ -29,7 +29,6 @@ import { SiMysql } from "react-icons/si";
 const Skills = () => {
   return (
     <section id="skills" className="mt-10 mb-10 w-full px-6 py-12 md:px-16 bg-white flex flex-col md:flex-row justify-center items-center gap-10">
-      {/* Left Section: Text */}
       <div className="md:w-4/12">
         <h2 className="text-5xl font-bold text-richorange">
           <span className="block overflow-visible">Me and</span>
@@ -49,7 +48,6 @@ const Skills = () => {
         </p>
       </div>
 
-      {/* Right Section: Tech Icons */}
       <div className="md:w-4/12 grid grid-cols-4 gap-6 justify-items-center text-7xl text-[#333]">
         <FaHtml5 className="text-orange-600" />
         <FaCss3Alt className="text-blue-600" />
