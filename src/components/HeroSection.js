@@ -30,17 +30,26 @@ const HeroSection = () => {
         </p>
 
         {/* Social Icons */}
-        <div className='w-full flex flex-row flex-wrap gap-6 text-xl items-center'>
-          <a href="https://www.linkedin.com/in/koushik-mediga-532983247/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin className="hover:text-blue-400 transition-all" />
-          </a>
-          <a href="https://github.com/Koushik-Mediga" target="_blank" rel="noopener noreferrer">
-            <FaGithub className="hover:text-gray-400 transition-all" />
-          </a>
-          <a href="https://leetcode.com/u/koushikmediga/" target="_blank" rel="noopener noreferrer">
-            <SiLeetcode className="hover:text-yellow-400 transition-all"/>
-          </a>
-        </div>
+<div className='w-full flex flex-row flex-wrap gap-6 text-xl items-center'>
+  <a href="https://www.linkedin.com/in/koushik-mediga-532983247/" target="_blank" rel="noopener noreferrer">
+    <FaLinkedin className="hover:text-blue-400 transition-all" />
+  </a>
+  <a href="https://github.com/Koushik-Mediga" target="_blank" rel="noopener noreferrer">
+    <FaGithub className="hover:text-gray-400 transition-all" />
+  </a>
+  <a href="https://leetcode.com/u/koushikmediga/" target="_blank" rel="noopener noreferrer">
+    <SiLeetcode className="hover:text-yellow-400 transition-all"/>
+  </a>
+  <a
+    href="/resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-base font-semibold hover:text-gray-400 transition-all"
+  >
+    RESUME
+  </a>
+</div>
+
 
         {/* Contact Me Button */}
         <a href='#contact' className='w-6/12 md:w-4/12 btn-animated hover:cursor-pointer text-center'>Contact Me</a>
